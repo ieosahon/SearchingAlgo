@@ -25,7 +25,23 @@ namespace SearchingAlgo
 
             Console.WriteLine(value1);
             Console.WriteLine(value2);
-            Console.WriteLine(value3);
+            Console.WriteLine(value3
+            Console.WriteLine("########################");
+
+            int [] arr1 = {0, 40, 5, 3, 8,  4, 6, 7};
+            int k1 = 5;
+            var res1 = BinarySearchAlgo.BinarySearch(arr1, k1);
+            Console.WriteLine(res1);
+
+            Console.WriteLine("########################");
+            int[] arr2 = { 0, 40, 5, 3, 8, 4, 6, 7 };
+            var k2 = 4;
+            var r = arr2.Length - 1;
+            var l1 = 0;
+
+            var res2 = BinarySearchUsingRecusion.BinarySearch(arr2, k2, l1, r);
+            Console.WriteLine(res2);
+
         }
     }
 }
