@@ -17,6 +17,15 @@ namespace SearchingAlgo
             int l = 10;
             var listRes = LinearSearchAlgo.LinearSearch(list, l);
             Console.WriteLine(listRes);
+
+            Console.WriteLine("#############################################");
+            string value1 = RemoveDuplicateCharacter.RemoveDuplicateChars("Csharpstar");
+            string value2 = RemoveDuplicateCharacter.RemoveDuplicateChars("Google");
+            string value3 = RemoveDuplicateCharacter.RemoveDuplicateChars("Osahon");
+
+            Console.WriteLine(value1);
+            Console.WriteLine(value2);
+            Console.WriteLine(value3);
         }
     }
 }
